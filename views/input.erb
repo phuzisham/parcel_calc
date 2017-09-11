@@ -1,0 +1,27 @@
+<h1><%= @description %></h1>
+
+<h1>Caclulate your shipping</h1>
+
+<form action="/output">
+  <div class="form-group">
+    <label for="length">Length of your package</label>
+    <input id="l" name="length" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="width">Width of your package</label>
+    <input id="w" name="width" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="height">Depth of your package</label>
+    <input id="d" name="depth" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="distance">Distance in miles</label>
+    <input id="dis" name="distance" class="form-control" type="text">
+  </div>
+  <div class="form-group">
+    <label for="height">Air or Ground</label>
+    <input id="aorg" name="air_ground" class="form-control" type="text">
+  </div>
+  <button type="submit" class="btn">Calculate!</button>
+</form>

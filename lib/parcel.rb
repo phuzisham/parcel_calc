@@ -13,6 +13,7 @@ class Parcel
   end
 
   def cost_to_ship(distance,speed)
+    distance = distance.to_i
     cost = volume/3
 
     if distance < 20
