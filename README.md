@@ -1,9 +1,24 @@
-authors: Nate McGregor, David Hale
+# _Parcel Calculator_
 
-| spec                                    | input                                  | output |
-|-----------------------------------------|----------------------------------------|--------|
-| will return volume                      | dimensions: 2,3,4                      |        |
-| will return cost                        | dimensions: 2,3,4 dis/spd: 20,'air'    |        |
-| will return cost with distance          | dimensions: 2,3,4 dis/spd: 20,'ground' |        |
-| will return cost with distance below 20 | dimensions: 2,3,4 dis/spd: 17,'ground' |        |
-|                                         |                                        |        |
+#### _Created: 09.11.2017_
+#### _Last Modified: 12.11.2017_
+
+#### By _**David Hale**_
+
+## Description
+
+_Calculates shipping cost based on dimensions, weight, and distance._
+
+## Support and contact details
+
+_Contact me at david.hale7@gmail.com_
+
+## Technologies Used
+
+_Ruby, Sinatra_
+
+### License
+
+*This application uses the MIT license*
+
+Copyright (c) 2017 **_David Hale_**
